@@ -1,0 +1,141 @@
+<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Mondphasen, Kalender &amp; Deutung | VELARKANA</title><meta name="description" content="Aktuelle Mondphase mit Beleuchtungsgrad, Zeitachse der vier Hauptphasen, Monatskalender mit Tagesdetails und iCal-Export."><link rel="canonical" href="https://ingbms.github.io/velarkana/mondphasen.html"><meta name="robots" content="index, follow"><meta property="og:type" content="website"><meta property="og:site_name" content="VELARKANA"><meta property="og:locale" content="de_DE"><meta property="og:title" content="Mondphasen, Kalender &amp; Deutung | VELARKANA"><meta property="og:description" content="Aktuelle Mondphase mit Beleuchtungsgrad, Zeitachse der vier Hauptphasen, Monatskalender mit Tagesdetails und iCal-Export."><meta property="og:url" content="https://ingbms.github.io/velarkana/mondphasen.html"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Mondphasen, Kalender &amp; Deutung | VELARKANA"><meta name="twitter:description" content="Aktuelle Mondphase mit Beleuchtungsgrad, Zeitachse der vier Hauptphasen, Monatskalender mit Tagesdetails und iCal-Export."><link rel="preload" href="/velarkana/assets/fonts/Fraunces.ttf" as="font" type="font/ttf" crossorigin><link rel="preload" href="/velarkana/assets/fonts/Manrope.ttf" as="font" type="font/ttf" crossorigin><link rel="icon" type="image/svg+xml" href="/velarkana/assets/favicon.svg"><meta name="app-base" content="/velarkana/"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ingbms.github.io/velarkana/mondphasen.html#webpage","url":"https://ingbms.github.io/velarkana/mondphasen.html","name":"Mondphasen, Kalender & Deutung | VELARKANA","description":"Aktuelle Mondphase mit Beleuchtungsgrad, Zeitachse der vier Hauptphasen, Monatskalender mit Tagesdetails und iCal-Export.","inLanguage":"de","isPartOf":{"@type":"WebSite","@id":"https://ingbms.github.io/velarkana/#website","url":"https://ingbms.github.io/velarkana/","name":"VELARKANA"}}]}</script><link rel="stylesheet" href="/velarkana/_astro/BaseLayout.B-fbi4zj.css"></head><body><a class="skip-link" href="#main">Zum Hauptinhalt springen</a><header class="header" id="header" data-site-header><div class="header-inner"><a href="/velarkana/" class="logo" aria-label="VELARKANA Startseite">VELARKANA</a><nav class="nav" id="nav" aria-label="Hauptnavigation" data-site-nav><ul class="nav-list" id="navList" data-nav-list><li><a href="/velarkana/" class="nav-link" data-page="home">Start</a></li><li><a href="/velarkana/tarot.html" class="nav-link" data-page="tarot">Tarot</a></li><li><a href="/velarkana/kristalle.html" class="nav-link" data-page="crystals">Kristalle</a></li><li><a href="/velarkana/mondphasen.html" class="nav-link active" data-page="moon" aria-current="page">Mondphasen</a></li><li><a href="/velarkana/astrologie/" class="nav-link" data-page="astrologie">Astrologie</a></li><li><a href="/velarkana/frequenzen/" class="nav-link" data-page="frequenzen">Frequenzen</a></li><li><a href="/velarkana/runen.html" class="nav-link" data-page="runes">Runen</a></li><li><a href="/velarkana/radiasthesie/" class="nav-link" data-page="pendeln">Pendeln</a></li><li><a href="/velarkana/farbwelten/" class="nav-link" data-page="farbwelten">Farben</a></li><li><a href="/velarkana/wissen/" class="nav-link" data-page="blog">Wissen</a></li></ul><button class="nav-toggle" id="navToggle" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navList" data-nav-toggle><span></span><span></span><span></span></button></nav><span id="favCounter" class="badge badge-primary fav-counter" aria-label="Anzahl Kristall-Favoriten" aria-live="polite">♥ 0</span></div></header><script type="module" src="/velarkana/_astro/SiteHeader.astro_astro_type_script_index_0_lang.hDDJVzW9.js"></script><main id="main" class="page-shell" tabindex="-1"><section id="moon" aria-labelledby="moon-title">
+<div class="container">
+          <div class="section-header mb-8">
+            <p class="label">Mond / Zyklus</p>
+            <h1 id="moon-title" class="page-title">Mondphasen</h1>
+            <p class="text-muted">
+              Was gerade am Himmel steht, wann die nächste Hauptphase ist — und was die acht Phasen bedeuten.
+            </p>
+          </div>
+
+          <p class="moon-error" id="moonError" role="alert" hidden>
+            Die Mondberechnung ist in diesem Browser fehlgeschlagen. Die übrige Seite funktioniert weiter; bitte lade
+            die Seite neu.
+          </p>
+
+          <section class="moon-today" aria-labelledby="moonPhaseName">
+            <div class="card moon-today-card">
+              <div class="moon-today-figure">
+                <div class="moon-svg-container" id="moonSvg"></div>
+                <p class="moon-figure-caption" id="moonFigureCaption">Monddarstellung wird geladen …</p>
+              </div>
+              <div class="moon-today-text">
+                <p class="moon-eyebrow" id="moonNowStamp">Datum wird geladen …</p>
+                <h2 id="moonPhaseName" class="moon-phase-title">Lade …</h2>
+                <p id="moonIllumination" class="moon-illumination">Beleuchtung wird geladen …</p>
+                <dl class="moon-facts">
+                  <div class="moon-fact">
+                    <dt>Mondalter</dt>
+                    <dd id="moonAge">—</dd>
+                  </div>
+                  <div class="moon-fact">
+                    <dt>Im Zyklus</dt>
+                    <dd id="moonCyclePos">—</dd>
+                  </div>
+                  <div class="moon-fact">
+                    <dt>Nächstes Ereignis</dt>
+                    <dd id="moonDaysUntil">—</dd>
+                  </div>
+                </dl>
+                <p class="moon-next" id="moonNextPhase">—</p>
+                <p class="moon-note">
+                  Berechnet im Browser nach Meeus, Kap. 48–49. Zeiten in <span id="moonTzLabel">Europe/Berlin</span>,
+                  Genauigkeit etwa ±1 Minute. Keine Standortdaten nötig.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="moon-block" aria-labelledby="moonTimelineTitle">
+            <h2 class="moon-block-title" id="moonTimelineTitle">Die vier Hauptphasen im Verlauf</h2>
+            <p class="moon-block-intro">
+              Ein Zyklus dauert im Mittel 29,53 Tage. Die vier Hauptphasen teilen ihn in Viertel — ihre Abstände
+              schwanken aber um mehrere Stunden, weil die Mondbahn elliptisch ist.
+            </p>
+            <ol class="moon-timeline" id="moonTimeline"></ol>
+          </section>
+
+          <section class="moon-block" aria-labelledby="moonCalendarTitle">
+            <div class="moon-block-head">
+              <h2 class="moon-block-title" id="moonCalendarTitle">Monatskalender</h2>
+              <div class="moon-calendar-controls">
+                <button
+                  type="button"
+                  class="btn btn-ghost moon-cal-btn"
+                  id="moonPrevMonth"
+                  aria-label="Vorheriger Monat"
+                >
+                  ‹
+                </button>
+                <button type="button" class="btn btn-secondary moon-cal-btn" id="moonTodayBtn">Heute</button>
+                <button type="button" class="btn btn-ghost moon-cal-btn" id="moonNextMonth" aria-label="Nächster Monat">
+                  ›
+                </button>
+              </div>
+            </div>
+            <p class="moon-calendar-label" id="moonCalendarLabel" aria-live="polite">—</p>
+            <div class="moon-calendar-layout">
+              <div class="moon-calendar-main">
+                <div class="moon-calendar" id="moonCalendar" role="group" aria-labelledby="moonCalendarTitle"></div>
+                <ul class="moon-legend" id="moonLegend" aria-label="Legende"></ul>
+              </div>
+              <div class="moon-day-detail" id="moonDayDetail" aria-live="polite"></div>
+            </div>
+          </section>
+
+          <section class="moon-block" aria-labelledby="moonPhasesTitle">
+            <h2 class="moon-block-title" id="moonPhasesTitle">Die acht Phasen verstehen</h2>
+            <p class="moon-block-intro">
+              Die vier Hauptphasen sind exakte Zeitpunkte. Sichel und Gibbous beschreiben die Bögen dazwischen — deshalb
+              kann ein Tag kurz nach dem Viertel schon als zunehmender Mond erscheinen. Die Zahlen sind berechnet; die
+              Deutungssätze darunter sind ausdrücklich als Deutung gekennzeichnet.
+            </p>
+            <div class="moon-phase-grid" id="moonPhaseGrid"></div>
+            <div class="moon-deepdive" id="moonDeepDive"></div>
+          </section>
+
+          <section class="moon-block moon-culture" aria-labelledby="moonCultureTitle">
+            <p class="moon-mode-label">Deutung · kulturell &amp; astrologisch — keine Messwerte</p>
+            <h2 class="moon-block-title" id="moonCultureTitle">Was Menschen in die Phasen gelesen haben</h2>
+            <p class="moon-block-intro">
+              Die Astronomie sagt, wie hell der Mond ist. Was er bedeuten soll, ist eine Überlieferung — hier steht
+              beides getrennt.
+            </p>
+            <div class="moon-culture-grid">
+              <div class="card moon-culture-card">
+                <h3 class="moon-subtitle">Reflexionsideen für die aktuelle Phase</h3>
+                <div id="moonRituals" class="moon-rituals"></div>
+              </div>
+              <div class="card moon-culture-card">
+                <h3 class="moon-subtitle">Deutung der aktuellen Phase</h3>
+                <p class="moon-culture-now" id="moonCultureNow">—</p>
+              </div>
+            </div>
+            <div class="moon-deepdive" id="moonCultureDive"></div>
+          </section>
+
+          <section class="moon-block moon-sources" aria-labelledby="moonSourcesTitle">
+            <h2 class="moon-block-title" id="moonSourcesTitle">Woher die Zahlen kommen</h2>
+            <ul class="moon-source-list" id="moonSourceList"></ul>
+            <p class="moon-limits">
+              <strong>Bewusst nicht enthalten:</strong> Mondauf- und -untergang (ohne Standort nicht berechenbar),
+              Mondzeichen (keine geprüfte Ephemeride im Projekt) und Finsternisse (eigene Rechnung über Knotenlage). Es
+              werden keine Standort- oder Gesundheitsdaten abgefragt.
+            </p>
+            <div class="moon-actions">
+              <button
+                id="icalBtn"
+                class="btn btn-secondary"
+                aria-label="Mondphasen der nächsten zwölf Monate als iCal-Datei herunterladen"
+              >
+                iCal-Export (12 Monate)
+              </button>
+              <p class="moon-ics-note" id="icalStatus" role="status"></p>
+            </div>
+          </section>
+        </div>
+</section>
+</main><footer class="footer"><div class="footer-inner"><div class="footer-brand"><div class="footer-logo">VELARKANA</div><p class="footer-tagline">Eine Sammlung esoterischer Werkzeuge und Wissens für moderne Suchende. Kein Dogma — nur Werkzeuge für deine eigene Reise.</p></div><div class="footer-column"><h2>Tools</h2><ul class="footer-links"><li><a href="/velarkana/tarot.html">Tarot-Karten</a></li><li><a href="/velarkana/kristalle.html">Kristall-Katalog</a></li><li><a href="/velarkana/mondphasen.html">Mondkalender</a></li><li><a href="/velarkana/frequenzen/labor.html">Frequenzlabor</a></li><li><a href="/velarkana/runen.html">Runen-Wurf</a></li></ul></div><div class="footer-column"><h2>Wissen</h2><ul class="footer-links"><li><a href="/velarkana/astrologie/">Astrologie-Bereich</a></li><li><a href="/velarkana/radiasthesie/">Radiästhesie &amp; Pendeln</a></li><li><a href="/velarkana/farbwelten/">Farbwelten &amp; Farben</a></li><li><a href="/velarkana/wissen/">Artikel-Archiv</a></li><li><a href="/velarkana/wissen/">Einsteiger-Guide</a></li></ul></div><div class="footer-column"><h2>Rechtliches</h2><ul class="footer-links"><li><a href="/velarkana/impressum.html">Impressum</a></li><li><a href="/velarkana/datenschutz.html">Datenschutz</a></li><li><a href="/velarkana/haftung.html">Haftungsausschluss</a></li><li><a href="/velarkana/impressum.html#bildnachweise">Bild- &amp; Schriftennachweise</a></li></ul></div></div><div class="footer-bottom"><p>© 2026 VELARKANA — Statische Website, keine Tracker, keine Cookies.</p><p><a href="https://github.com/ingbms/velarkana" target="_blank" rel="noopener">Open Source auf GitHub</a></p></div></footer><!-- Legacy-Hash-Shim: alte Adressen wie #astrologie/zeichen/widder werden
+         auf ihre neue URL umgeschrieben (Redirect-Map aus src/lib/legacy-routes.ts).
+         Der Listener ist nötig, weil eine reine Hash-Navigation innerhalb der
+         Seite kein Neuladen auslöst — sonst bliebe ein alter Link stehen. --><script type="module" src="/velarkana/_astro/BaseLayout.astro_astro_type_script_index_0_lang.BECeyUNJ.js"></script></body></html><script type="module" src="/velarkana/_astro/mondphasen.astro_astro_type_script_index_0_lang.BUUE-uvL.js"></script>

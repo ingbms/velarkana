@@ -1,0 +1,6 @@
+# VELARKANA — alle ausgelieferten Inhalte sind indexierbar.
+# Repo-Interna (docs/, tests/, qa/, evidence/) liegen nicht im Deploy-Ordner.
+User-agent: *
+Allow: /
+
+Sitemap: https://ingbms.github.io/velarkana/sitemap-index.xml

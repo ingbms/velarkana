@@ -6,7 +6,7 @@
   "generated_at": "2026-11-02T23:27:43Z",
   "generated_by": "Kanban-Task t_187d5f52 / ESOW-RAD-05 (Profil deep_research_rag, Modell deepseek-flash)",
   "retrieved_at": "2026-11-03",
-  "scope": "assets/radiasthesie/media/",
+  "scope": "assets/radiasthesie/media/ (ausgeliefert) und docs/archive/radiasthesie/media/ (Quellenarchiv, nicht ausgeliefert)",
   "license_policy": {
     "allowed": [
       "Public Domain",
@@ -61,7 +61,7 @@
     "begruendung": "520 px ist die Breite des bestehenden Figuren-Slots, 1040 px die 2x-Fassung für hochauflösende Displays. WebP entspricht der Projektkonvention in assets/crystals/<breite>/. AVIF ergänzt den im Projektplan (§2.5) genannten zweiten modernen Typ; eingebunden wird er erst mit <picture>/<source> in RAD-06. Abweichend von den Kristallbildern (320/640/960/1280) sind hier nur zwei Breiten erzeugt, weil der Slot fest 520 px breit ist.",
     "ausnahmen": [
       "radiasthesierute: nur 520 px, weil das Original 566 px breit ist (kein Hochskalieren)",
-      "ouija-historisch: zusätzlich PNG, weil echte Transparenz und Schrift vorliegen"
+      "ouija-historisch: zusätzlich PNG, weil echte Transparenz und Schrift vorliegen; das 1040-PNG ist nicht eingebunden und liegt im Quellenarchiv, ausgeliefert wird nur das 520-PNG als Fallback"
     ]
   },
   "counts": {
@@ -69,7 +69,8 @@
     "originale": 6,
     "varianten": 24,
     "eigene_svgs": 4,
-    "dateien_im_medienordner": 33,
+    "dateien_im_medienordner": 26,
+    "dateien_im_quellenarchiv": 7,
     "assets_gesamt": 34
   },
   "items": [
@@ -116,14 +117,15 @@
         "lizenz_auf_dateiseite_bestaetigt": true
       },
       "original": {
-        "pfad": "assets/radiasthesie/media/original/klassisches-pendel.jpg",
+        "pfad": "docs/archive/radiasthesie/media/original/klassisches-pendel.jpg",
         "bytes": 168315,
         "mime": "image/jpeg",
         "breite": 1784,
         "hoehe": 1468,
         "sha1": "1147b6087129a520463046ee012b1abce9f05aef",
         "sha256": "130eb311793ec7e2718654339f2b09404a33f31a027d7de4ca0ed9a5ffb36719",
-        "sha1_quelle": "1147b6087129a520463046ee012b1abce9f05aef"
+        "sha1_quelle": "1147b6087129a520463046ee012b1abce9f05aef",
+        "auslieferung": "archiviert — nicht im Build, dient nur als Herkunftsbeleg der abgeleiteten Varianten"
       },
       "varianten": [
         {
@@ -219,14 +221,15 @@
         "lizenz_auf_dateiseite_bestaetigt": true
       },
       "original": {
-        "pfad": "assets/radiasthesie/media/original/universalpendel.jpg",
+        "pfad": "docs/archive/radiasthesie/media/original/universalpendel.jpg",
         "bytes": 1655496,
         "mime": "image/jpeg",
         "breite": 2108,
         "hoehe": 1776,
         "sha1": "a7da8420c903c7ef20acb7b675a2108f6df77d9f",
         "sha256": "18fd3a30e08c7d20472be4da934a1fc6ee712daa8bd03d980b1cd62bc4278432",
-        "sha1_quelle": "a7da8420c903c7ef20acb7b675a2108f6df77d9f"
+        "sha1_quelle": "a7da8420c903c7ef20acb7b675a2108f6df77d9f",
+        "auslieferung": "archiviert — nicht im Build, dient nur als Herkunftsbeleg der abgeleiteten Varianten"
       },
       "varianten": [
         {
@@ -322,14 +325,15 @@
         "lizenz_auf_dateiseite_bestaetigt": true
       },
       "original": {
-        "pfad": "assets/radiasthesie/media/original/radiasthesierute.jpg",
+        "pfad": "docs/archive/radiasthesie/media/original/radiasthesierute.jpg",
         "bytes": 335929,
         "mime": "image/jpeg",
         "breite": 566,
         "hoehe": 425,
         "sha1": "40a58fb0b29e07d3ada3ce21354467b091df5692",
         "sha256": "4aba217318b0fe1dfc52491556d905aca80130060bcb0a29adb6de38aade50cb",
-        "sha1_quelle": "40a58fb0b29e07d3ada3ce21354467b091df5692"
+        "sha1_quelle": "40a58fb0b29e07d3ada3ce21354467b091df5692",
+        "auslieferung": "archiviert — nicht im Build, dient nur als Herkunftsbeleg der abgeleiteten Varianten"
       },
       "varianten": [
         {
@@ -411,14 +415,15 @@
         "lizenz_auf_dateiseite_bestaetigt": true
       },
       "original": {
-        "pfad": "assets/radiasthesie/media/original/wuenschelrute-historisch.jpg",
+        "pfad": "docs/archive/radiasthesie/media/original/wuenschelrute-historisch.jpg",
         "bytes": 1110391,
         "mime": "image/jpeg",
         "breite": 1232,
         "hoehe": 741,
         "sha1": "b29c59be770ee6ec6b98a3e7c47c70f53f97a53c",
         "sha256": "328dfcd41b5608d8fa262adadd69212622ac5b12019ee2c289da4d18a6099e3e",
-        "sha1_quelle": "b29c59be770ee6ec6b98a3e7c47c70f53f97a53c"
+        "sha1_quelle": "b29c59be770ee6ec6b98a3e7c47c70f53f97a53c",
+        "auslieferung": "archiviert — nicht im Build, dient nur als Herkunftsbeleg der abgeleiteten Varianten"
       },
       "varianten": [
         {
@@ -514,14 +519,15 @@
         "lizenz_auf_dateiseite_bestaetigt": true
       },
       "original": {
-        "pfad": "assets/radiasthesie/media/original/tarot.jpg",
+        "pfad": "docs/archive/radiasthesie/media/original/tarot.jpg",
         "bytes": 1861604,
         "mime": "image/jpeg",
         "breite": 3200,
         "hoehe": 2400,
         "sha1": "631451d33eed4381273b04fe61851d276c3a0221",
         "sha256": "9d50255b05821416925e965825cf56a52f2c4c1d1090f7fcb11fde5606e870d8",
-        "sha1_quelle": "631451d33eed4381273b04fe61851d276c3a0221"
+        "sha1_quelle": "631451d33eed4381273b04fe61851d276c3a0221",
+        "auslieferung": "archiviert — nicht im Build, dient nur als Herkunftsbeleg der abgeleiteten Varianten"
       },
       "varianten": [
         {
@@ -617,14 +623,15 @@
         "lizenz_auf_dateiseite_bestaetigt": true
       },
       "original": {
-        "pfad": "assets/radiasthesie/media/original/ouija-historisch.png",
+        "pfad": "docs/archive/radiasthesie/media/original/ouija-historisch.png",
         "bytes": 22414749,
         "mime": "image/png",
         "breite": 4928,
         "hoehe": 3290,
         "sha1": "6eb9db8791e3779c0135f8e1dc44d0296cb392ef",
         "sha256": "caf46ad77f0397018c82b96818f8a83867f9e33f2753e653a128a6c3881bf4d5",
-        "sha1_quelle": "6eb9db8791e3779c0135f8e1dc44d0296cb392ef"
+        "sha1_quelle": "6eb9db8791e3779c0135f8e1dc44d0296cb392ef",
+        "auslieferung": "archiviert — nicht im Build, dient nur als Herkunftsbeleg der abgeleiteten Varianten"
       },
       "varianten": [
         {
@@ -678,10 +685,11 @@
           "breite": 1040,
           "hoehe": 694,
           "format": "png",
-          "pfad": "assets/radiasthesie/media/1040/ouija-historisch.png",
+          "pfad": "docs/archive/radiasthesie/media/1040/ouija-historisch.png",
           "bytes": 1439499,
           "sha256": "5ea31dad72c089e9a50ee2dbdbb7982f86fe751606e8cbb3893051987956d9dd",
-          "hat_alpha": true
+          "hat_alpha": true,
+          "archiviert": "Keine Ansicht referenziert dieses PNG; ausgeliefert werden nur die AVIF-/WebP-Geschwister in 520/1040 sowie das 520-PNG als Notfall-Fallback. Bytegleich ins Quellenarchiv verschoben, damit der Kataloghash erhalten bleibt."
         }
       ],
       "varianten_uebersprungen": [],
@@ -783,5 +791,13 @@
     "AVIF ist erzeugt, aber noch von keiner Ansicht ausgeliefert; der Einbau braucht <picture>/<source>.",
     "Für die Auslieferung fehlt eine Bildnachweisseite im Seitenbau; hier liegt sie als generierte Datei bereit.",
     "Bei den beiden CC-BY-SA-3.0-Motiven muss die Weitergabe unter gleichen Bedingungen sichtbar werden (Impressum- oder Bildnachweishinweis)."
-  ]
+  ],
+  "quellenarchiv": {
+    "pfad": "docs/archive/radiasthesie/media",
+    "zweck": "Quellfassungen und nicht eingebundene Varianten. Kein Bestandteil von public/assets oder dist.",
+    "begruendung": "Beide Dateigruppen waren über den öffentlichen Auslieferungspfad erreichbar, obwohl sie keine Ansicht referenziert: die sechs Wikimedia-Originale (27.546.484 Byte, u. a. 22,4 MB Ouija-Brett) und das 1040-PNG (1.439.499 Byte). Sie bleiben als Herkunfts- und Hashbeleg erhalten, werden aber nur noch aus dem Repository gelesen. Verschieben statt Löschen, weil der Medienkatalog sie bytegenau führt.",
+    "dateien": 7,
+    "bytes": 28985983,
+    "katalog": "docs/migration-baseline/media-catalog.csv, Spalte delivery=source-only"
+  }
 }

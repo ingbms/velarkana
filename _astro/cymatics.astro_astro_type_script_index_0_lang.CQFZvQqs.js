@@ -1,1 +1,0 @@
-import{t as e}from"./rolldown-runtime.B8xr6ykz.js";import{n as t,t as n}from"./frequenzlabor-loader.DNF8LpdT.js";var r=e((async()=>{t();var e=document.getElementById(`frequenzlaborRoot`);e&&await new n(e).show([`cymatics`])}));export default r();

@@ -775,7 +775,7 @@
     }
   ],
   "open_issues": [
-    "Keine LICENSE-Datei im Repository: die Lizenz der eigenen SVGs und der Projektinhalte ist nicht formal festgelegt.",
+    "Keine gesamt-repositoryweite LICENSE-Datei: die Geltungsbereiche stehen in NOTICE und docs/governance/license-scopes.json (eigene redaktionelle Inhalte CC BY-NC-SA 4.0, Programmcode UNLICENSED, Fremdmedien nach jeweiliger Original-Lizenz). Die eigenen SVGs sind Eigenwerke dieses Projekts; eine gesonderte Lizenzangabe je Datei gibt es nicht.",
     "Pfadabweichung zu RAD-01/INTEGRATIONSPUNKTE.md §2.5: dort sind assets/radiasthesie/fotos/ und assets/radiasthesie/media-manifest.json vorgesehen. Diese Karte schreibt assets/radiasthesie/media/ vor. Bewusst genau eine Manifestdatei unter assets/radiasthesie/media/media-manifest.json — eine Kopie an zweiter Stelle wäre eine zweite Wahrheit. RAD-06 muss diesen Pfad lesen.",
     "Das Ouija-Logo ist bei 520 px nicht sicher zu entziffern; der Alt-Text beschreibt es deshalb, ohne es zu lesen.",
     "Die Zuschreibung des Wünschelruten-Blattes an Thomas Pennant ist laut Dateiseite unsicher (Beschreibung nennt mehrere Zeichner).",

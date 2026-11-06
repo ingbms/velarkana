@@ -1,1 +1,0 @@
-import{t as e}from"./rolldown-runtime.B8xr6ykz.js";import{n as t,t as n}from"./frequenzlabor-loader.B6OSnnN5.js";var r=e((async()=>{t();var e=document.getElementById(`frequenzlaborRoot`);e&&await new n(e).show([`meditation`])}));export default r();

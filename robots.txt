@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ingbms.github.io/velarkana/sitemap-index.xml
+Sitemap: https://www.velarkana.de/sitemap-index.xml

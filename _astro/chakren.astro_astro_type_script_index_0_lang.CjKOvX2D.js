@@ -1,0 +1,1 @@
+import{t as e}from"./rolldown-runtime.B8xr6ykz.js";import{t}from"./farbwelten-inhalte.BxMYE7af.js";var n=e((()=>{t()}));export default n();
